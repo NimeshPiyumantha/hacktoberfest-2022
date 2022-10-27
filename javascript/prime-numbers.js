@@ -1,4 +1,4 @@
-// Method 1
+//  Method 1
 function isPrime(num) {
     for (let i = 2; i * i <= num; i++)
         if (num % i === 0)
@@ -6,7 +6,7 @@ function isPrime(num) {
     return num > 1;
 }
 
-// Method 2
+//  Method 2
 function getPrime(until) {
   let factor;
   for (let i = 0; i < n; i++) {
