@@ -9,4 +9,6 @@ while data_list:
     new_list.append(minimum)
     data_list.remove(minimum)    
 
+    
+# Print sorted array
 print new_list
